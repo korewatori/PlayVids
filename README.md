@@ -1,16 +1,16 @@
-## Playvids Downloader
+## Playvids Video Downloader
 
-**How to use**   
-Double click the exe and enter the url of the video you want to download.   
+### How to use
+Run .EXE and enter a URL of a video. (At the moment, only one URL is supported.)   
 
-**What it does**  
-- Downloads at the highest resolution available.   
+### Current Features
+- Downloads one video at a time (per instance) in the highest resolution available and outputs to a .TS file.
 
-**What it doesn't do**  
-- Doesn't download subtitles (if any).  
+### Planned Features (in no particular order)
+- Add help message
+- Add support for subtitles
+- Tags and metadata
+- Add ffmpeg conversion support, with prompts after the user downloads a video
+- Add command line support
 
-The ".ts" videos that this outputs will probably need to be run though ffmpeg for a better viewing experience.  
-I Personally use this command:  
-	ffmpeg -i "episode-name.ts" -acodec copy -vcodec copy "episode-name.mp4"  
-
-"Hey, your code sucks!" Yup, thats why I do this for fun and not for a living.  
+I'm unsure whether I'll keep this as a Playvids Downloader fork because I might as well add support for other sites too, not necessarily porn.
