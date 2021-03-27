@@ -7,6 +7,7 @@ Run .EXE and enter a URL of a video. (At the moment, only one URL is supported.)
 - Downloads one video at a time (per instance) in the highest resolution available and outputs to a .TS file.
 
 ### Planned Features (in no particular order)
+- General code rewrite
 - Add help message
 - Add support for subtitles
 - Tags and metadata
